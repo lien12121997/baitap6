@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+section {
+    width: 100%;
+}
+/*______________________  Container _____________________*/
+.container {
+    width: 1170px;
+    margin: auto;
+    background: red;
+}
+.row:before, .row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.row{
+    margin: 0 -15px;
+}
+.column {
+    float: left;
+    padding: 0 15px;
+}
+/*______________________  Header _____________________*/
+ul li{
+    list-style:none;
+}
